@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.rushikesh.busapp">
+    <!--Add these permission in AndroidManifest.xml file-->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="MSRTC"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="MSRTC" />
+        <activity
+            android:name=".EmergencyContacts"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".EcHospital"
+            android:label="Hospitals"
+            android:parentActivityName=".EmergencyContacts" />
+        <activity
+            android:name=".EcCrane"
+            android:label="Crane Services"
+            android:parentActivityName=".EmergencyContacts" />
+        <activity
+            android:name=".splashScreen"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".resultPath"
+            android:label="Path"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".EcAmbulance"
+            android:parentActivityName=".EmergencyContacts"
+            android:label="Ambulance"/>
+        <activity android:name=".EcBloodbank"
+            android:parentActivityName=".EmergencyContacts"
+            android:label="Blood Bank"/>
+    </application>
+</manifest>

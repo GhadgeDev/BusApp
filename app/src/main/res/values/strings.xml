@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BusApp</string>
+    <string name="source">Source</string>
+    <string name="where_are_you_now">Where are you now ?</string>
+    <string name="destination">Destination</string>
+    <string name="where_to_go">Where to go ?</string>
+    <string name="search">Search</string>
+    <string name="hospitals">Hospitals</string>
+    <string name="fire_brigade">Fire Brigade</string>
+    <string name="other">Other</string>
+    <string name="emergency_contacts">Emergency Contacts</string>
+</resources>

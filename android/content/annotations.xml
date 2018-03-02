@@ -1,0 +1,8 @@
+<root>
+    <item name='android.content.Intent'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+    <item name='android.content.Intent android.content.Intent setData(android.net.Uri)'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>
